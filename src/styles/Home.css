@@ -1,0 +1,132 @@
+
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: #006622;
+    margin-bottom: 200px;
+  }
+  
+/* .BG_video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+} */
+
+.BG_video {
+  position: relative;
+  margin-top: 2px;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  /* height: 30%; */
+  background-size: cover;
+  
+}
+
+.about {
+    width: 100%;
+    /* height: calc(100vh - 100px); */
+    height: 600px;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: transparent;
+    color: white;
+    position: absolute;
+    top : 70px
+
+    
+    /*background-image: url("../assets/HomeBG.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: center;
+    height : 100%*/
+  }
+  
+.about h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color: #ffff00;
+    height: 10px;
+    
+  }
+  
+.about .prompt {
+    width: 40%;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+
+  }
+
+.name {
+  font-style: italic;
+}
+
+  .prompt svg {
+    font-size: 60px;
+    margin-top: 45px;
+    color: #ffff00;
+  }
+
+  .prompt svg:hover {
+    cursor: pointer;
+    color : #006622;
+    background-color: white ;
+    visibility : "visible"
+  }
+
+
+.skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.skills h1 {
+    color: 	 #003311;
+  }
+  
+  .skills .list {
+    list-style: none;
+    width: 60%;
+  }
+  
+.list span {
+    font-size: 25px;
+  }
+  
+@media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+  }
+
+  /*#003366*/
